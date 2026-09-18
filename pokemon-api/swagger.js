@@ -5,8 +5,8 @@ const doc = {
     title: 'Pokemon API',
     description: 'API para gestionar Pokémon y Entrenadores',
   },
-  host: 'localhost:3000',
-  schemes: ['http', 'https'],
+  host: 'pokemon-project-axff.onrender.com',
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
