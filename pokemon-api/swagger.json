@@ -5,10 +5,9 @@
     "description": "API para gestionar Pokémon y Entrenadores",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "pokemon-project-axff.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
