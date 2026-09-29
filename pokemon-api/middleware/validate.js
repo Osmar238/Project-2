@@ -11,7 +11,6 @@ const pokemonValidationRules = () => {
   ];
 };
 
-// NUEVAS REGLAS PARA ENTRENADORES
 const trainerValidationRules = () => {
   return [
     check('name', 'Trainer name is required').not().isEmpty(),
