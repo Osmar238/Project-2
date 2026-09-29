@@ -22,7 +22,7 @@ app.use(passport.session());
 passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENT_ID,
     clientSecret: process.env.GITHUB_CLIENT_SECRET,
-    callbackURL: "https://tu-pokemon-api.onrender.com/github/callback"
+    callbackURL: "https://pokemon-project-axff.onrender.com/github/callback"
   },
   function(accessToken, refreshToken, profile, done) {
     return done(null, profile);
